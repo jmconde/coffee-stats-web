@@ -33,3 +33,16 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Environmental Properties
+- **VITE_API_BASE**: `http://localhost:3000/api/v1`
+- **VITE_API_PATH_LIST**: `/list/today`
+- **VITE_API_PATH_WHITELIST**: `/whitelist`
+- **VITE_API_PATH_NOW_SESSIONS**: `/ivao/sessions/now`
+- **VITE_API_PATH_NOW_FLIGHTPLANS**: `/ivao/flightplans/latest`
+- **VITE_API_PATH_AUTHENTICATION**: `/admin/user/authenticate`
+- **VITE_API_PATH_PASSWORD_CHANGE**: `/admin/user/password-change`
+- **VITE_API_PATH_ALIVE**: `/admin/user/alive`
+- **VITE_API_PATH_LOGOUT**: `/admin/user/logout`
+- **VITE_API_PATH_IVAO_WAZZUP**: `/ivao/wazzup`
+- **VITE_API_PATH_ACARS_USER_POSITION**: `/acars/position`
