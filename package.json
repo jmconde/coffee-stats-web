@@ -1,0 +1,46 @@
+{
+  "name": "coffee-stats-web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "serve": "npm run build && http-server ./dist -c-1",
+    "docker-build": "docker build -t arhuako/coffee_stats_web ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@headlessui/vue": "^1.7.7",
+    "@heroicons/vue": "^2.0.13",
+    "@popperjs/core": "^2.11.6",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "leaflet-rotatedmarker": "^0.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.29",
+    "redis": "^4.5.1",
+    "vue": "^3.2.45",
+    "vue-loading-overlay": "^6.0.2",
+    "vue-mobile-detection": "^2.0.1",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue-leaflet/vue-leaflet": "^0.8.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "bulma": "^0.9.4",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "http-server": "^14.1.1",
+    "leaflet": "^1.9.3",
+    "prettier": "^2.7.1",
+    "sass": "^1.57.1",
+    "vite": "^4.0.0"
+  }
+}

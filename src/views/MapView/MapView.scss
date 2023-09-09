@@ -1,0 +1,14 @@
+h1 {
+  color: green
+}
+
+.livemap-wrapper {
+  // position: absolute;
+  // bottom: 0;
+  width: 100%;
+  height: 90vh;
+}
+
+img.leaflet-marker-icon.plane {
+  opacity: 0.5 !important;
+}
